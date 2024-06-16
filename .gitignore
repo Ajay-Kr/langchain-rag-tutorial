@@ -1,4 +1,26 @@
+# Python specific
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+myenv/
+
+# Environment variables
 .env
-chroma_*
-chroma
+
+# IDE specific
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore OS generated files
 .DS_Store
+Thumbs.db
